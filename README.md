@@ -107,7 +107,7 @@ src/
 
 ## 致谢
 
-基于 marginnote-to-obsidian Python 脚本移植。
+本插件由 [Claude](https://claude.ai)（Anthropic）协助开发。感谢 AI 让不会编程的人也能实现奇思妙想。
 
 ## License
 
