@@ -1,0 +1,9 @@
+{
+  "id": "marginnote-importer",
+  "name": "MarginNote Importer",
+  "version": "0.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "Import MarginNote 4 mind maps as MarkMind-compatible markdown files",
+  "author": "yzy",
+  "isDesktopOnly": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "obsidian-marginnote-importer",
+  "version": "0.1.0",
+  "description": "Import MarginNote 4 mind maps into Obsidian as MarkMind-compatible markdown files",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "postinstall": "cp node_modules/sql.js/dist/sql-wasm.wasm ."
+  },
+  "keywords": ["obsidian", "marginnote", "markmind", "mindmap"],
+  "license": "MIT",
+  "dependencies": {
+    "sql.js": "^1.11.0",
+    "bplist-parser": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.24.0",
+    "obsidian": "latest",
+    "typescript": "^5.6.0"
+  }
+}
