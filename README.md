@@ -10,7 +10,19 @@
 - 📁 **自动文件夹组织**：通过 3-pass wikilink 分析，自动推断子脑图的嵌套关系
 - ⚙️ **可配置**：数据库路径、输出目录、节点宽度、手动嵌套映射均可在设置面板调整
 
+## 前置要求
+
+- **Obsidian Desktop**（macOS）
+- 安装 [Enhancing Mindmap](https://github.com/MarkMindCkm/obsidian-enhancing-mindmap) 插件（用于渲染导入后的脑图）
+
 ## 安装
+
+### 通过 BRAT 安装（推荐）
+
+1. 在 Obsidian 社区插件中安装 [BRAT](https://github.com/TfTHacker/obsidian42-brat)
+2. 打开 BRAT 设置 → **Add Beta Plugin**
+3. 输入 `https://github.com/yzy-lex/obsidian-marginnote-importer`
+4. 点击 **Add Plugin** → BRAT 会自动下载并启用
 
 ### 手动安装
 
@@ -20,13 +32,6 @@
    - `manifest.json`
    - `sql-wasm.wasm`
 3. 打开 Obsidian → 设置 → 第三方插件 → 刷新 → 启用 **MarginNote Importer**
-
-### 通过 BRAT 安装（推荐）
-
-1. 在 Obsidian 社区插件中安装 [BRAT](https://github.com/TfTHacker/obsidian42-brat)
-2. 打开 BRAT 设置 → **Add Beta Plugin**
-3. 输入 `yzy-lex/obsidian-marginnote-importer`
-4. 点击 **Add Plugin** → BRAT 会自动下载并启用
 
 ### 从源码构建
 
