@@ -12,14 +12,21 @@
 
 ## 安装
 
-### 手动安装（推荐）
+### 手动安装
 
-1. 下载 [最新 Release](https://github.com/yzy-lex/obsidian-marginnote-importer/releases)（或从源码构建）
-2. 将以下 3 个文件放入 `<你的 Vault>/.obsidian/plugins/marginnote-importer/`：
+1. 下载 [最新 Release](https://github.com/yzy-lex/obsidian-marginnote-importer/releases) 中的 3 个文件
+2. 放入 `<你的 Vault>/.obsidian/plugins/marginnote-importer/`：
    - `main.js`
    - `manifest.json`
    - `sql-wasm.wasm`
 3. 打开 Obsidian → 设置 → 第三方插件 → 刷新 → 启用 **MarginNote Importer**
+
+### 通过 BRAT 安装（推荐）
+
+1. 在 Obsidian 社区插件中安装 [BRAT](https://github.com/TfTHacker/obsidian42-brat)
+2. 打开 BRAT 设置 → **Add Beta Plugin**
+3. 输入 `yzy-lex/obsidian-marginnote-importer`
+4. 点击 **Add Plugin** → BRAT 会自动下载并启用
 
 ### 从源码构建
 
